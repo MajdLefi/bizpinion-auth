@@ -8,6 +8,7 @@ import { Link, Container, Typography, Divider, Stack, Button } from '@mui/materi
 //import Logo from '../components/logo';
 import Iconify from '../components/iconify';
 // sections
+import Image from 'next/image'
 import  LoginForm  from '../components/loginForm';
 // ----------------------------------------------------------------------
 
@@ -49,7 +50,7 @@ export default function LoginPage() {
       </Helmet> */}
 
       <StyledRoot>
-        <img style={{paddingLeft:'40px'}} src="/assets/logo.png" alt="login-logo" width={50} height={50}/>
+      <img style={{paddingLeft:'40px'}} src="/assets/logo.png" alt="login-logo" width={120} height={50}/>
         {/* <Logo
           sx={{
             position: 'fixed',
@@ -63,14 +64,15 @@ export default function LoginPage() {
             <Typography variant="h3" sx={{ px: 5, mt: 0, mb: 5 }}>
               Hi, Welcome Back
             </Typography>
-            <img src="/assets/illustration_login.png" alt="login" style={{border:'solid red 1px'}}/>
+            <img src="/assets/illustration_login.png" alt="login" />
           </StyledSection>
        
 
         <Container maxWidth="sm">
+
           <StyledContent>
             <Typography variant="h4" gutterBottom>
-              Sign in to Pollfish
+              Sign in to Bizpinion
             </Typography>
             <Typography>
               Create your survey in minutes, get results in hours

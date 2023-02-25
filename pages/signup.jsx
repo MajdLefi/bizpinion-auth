@@ -49,7 +49,7 @@ export default function SignUp() {
       </Helmet> */}
 
       <StyledRoot>
-        <img style={{paddingLeft:'40px'}} src="/assets/logo.png" alt="login-logo" width={50} height={50}/>
+        <img style={{paddingLeft:'40px'}} src="/assets/logo.png" alt="login-logo" width={120} height={50}/>
         {/* <Logo
           sx={{
             position: 'fixed',
@@ -68,7 +68,7 @@ export default function SignUp() {
         <Container maxWidth="sm">
           <StyledContent>
             <Typography variant="h4" gutterBottom>
-              Sign up to Pollfish
+              Sign up to Bizpinion
             </Typography>
             <Typography>
               Create your survey in minutes, get results in hours
